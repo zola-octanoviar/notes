@@ -10,6 +10,7 @@ namespace notes_test
         {
            Assert.Equal(1, 1);       
            Assert.Equal(true, true);
+
            // failed test
            //Assert.Equal(false, true);
         }
