@@ -23,6 +23,10 @@ jobs:
           name: Publish 
           command: dotnet publish notes/notes.csproj  --output ../publish
 
+      - run:
+          name: Rsync
+          command: sudo apt install -y rsync
+
       - add_ssh_keys:
           fingerprints:
             - "60:a4:59:d0:38:2b:c3:00:bf:a3:b8:63:9d:ab:7c:a0"
