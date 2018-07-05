@@ -24,10 +24,6 @@ jobs:
           #command: dotnet publish c Release -r ubuntu.16.04-x64 notes/notes.csproj  --output ../publish
           command: dotnet publish -c Release -r ubuntu.16.04-x64 notes/notes.csproj  --output ../publish
 
-      - run:
-          name: Rsync
-          command: apt-get update -y
-          #command: apt install -y rsync
 
       - add_ssh_keys:
           fingerprints:
@@ -35,9 +31,7 @@ jobs:
 
       - deploy:
           name: Deploy Over SSH
-          command: scp  -o StrictHostKeyChecking=no ~/repo/publish/  ubuntu@ec2-18-206-57-23.compute-1.amazonaws.com:/var/www/html/notes/
-
-          #command: rsync -e "ssh -o StrictHostKeyChecking=no" -arvc --exclude .git ~/repo/publish ubuntu@ec2-18-206-57-23.compute-1.amazonaws.com:/var/www/html/notes
+          command: scp  -o StrictHostKeyChecking=no -r ~/repo/publish  ubuntu@ec2-18-206-57-23.compute-1.amazonaws.com:/var/www/html/notes/
 
 
   
