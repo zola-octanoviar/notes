@@ -1,0 +1,18 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: microsoft/aspnetcore-build:2.0
+    steps:
+      - checkout
+      - run:
+          name: Restore solution
+          command: dotnet restore notes/
+      - run:
+          name: Build solution
+          command: dotnet build notes/
+      - run:
+          name: Run tests 
+          command: dotnet test notes_test/notes_test.csproj
+
+  
