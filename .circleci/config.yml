@@ -25,7 +25,7 @@ jobs:
 
       - run:
           name: Rsync
-          command: sudo apt install -y rsync
+          command: apt install -y rsync
 
       - add_ssh_keys:
           fingerprints:
