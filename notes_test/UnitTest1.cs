@@ -8,11 +8,21 @@ namespace notes_test
         [Fact]
         public void Test1()
         {
-           Assert.Equal(1, 1);       
-           Assert.Equal(true, true);
+            Assert.Equal(1, 1);       
 
-           // failed test
-           //Assert.Equal(false, true);
+            bool  expectedTrue = true;
+            Assert.True(expectedTrue);
+
+            // failed test
+            //expectedTrue = false;
+            //Assert.True(expectedTrue);
+
+            bool expectedFalse = false;
+            Assert.False(expectedFalse);
+
+            // failed test
+            //expectedFalse = true;
+            //Assert.False(expectedFalse);
         }
     }
 }
