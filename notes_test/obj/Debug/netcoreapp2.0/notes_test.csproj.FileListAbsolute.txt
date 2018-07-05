@@ -1,0 +1,13 @@
+/Workspace/net.core/notes_xunit/notes_test/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Workspace/net.core/notes_xunit/notes_test/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll
+/Workspace/net.core/notes_xunit/notes_test/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll
+/Workspace/net.core/notes_xunit/notes_test/bin/Debug/netcoreapp2.0/notes_test.deps.json
+/Workspace/net.core/notes_xunit/notes_test/bin/Debug/netcoreapp2.0/notes_test.runtimeconfig.json
+/Workspace/net.core/notes_xunit/notes_test/bin/Debug/netcoreapp2.0/notes_test.runtimeconfig.dev.json
+/Workspace/net.core/notes_xunit/notes_test/bin/Debug/netcoreapp2.0/notes_test.dll
+/Workspace/net.core/notes_xunit/notes_test/bin/Debug/netcoreapp2.0/notes_test.pdb
+/Workspace/net.core/notes_xunit/notes_test/obj/Debug/netcoreapp2.0/notes_test.csproj.CoreCompileInputs.cache
+/Workspace/net.core/notes_xunit/notes_test/obj/Debug/netcoreapp2.0/notes_test.AssemblyInfoInputs.cache
+/Workspace/net.core/notes_xunit/notes_test/obj/Debug/netcoreapp2.0/notes_test.AssemblyInfo.cs
+/Workspace/net.core/notes_xunit/notes_test/obj/Debug/netcoreapp2.0/notes_test.dll
+/Workspace/net.core/notes_xunit/notes_test/obj/Debug/netcoreapp2.0/notes_test.pdb
