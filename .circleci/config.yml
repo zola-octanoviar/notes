@@ -35,7 +35,7 @@ jobs:
 
       - deploy:
           name: Deploy Over SSH
-          command: scp  ~/repo/publish/  ubuntu@ec2-18-206-57-23.compute-1.amazonaws.com:/var/www/html/notes/
+          command: scp  -o StrictHostKeyChecking=no ~/repo/publish/  ubuntu@ec2-18-206-57-23.compute-1.amazonaws.com:/var/www/html/notes/
 
           #command: rsync -e "ssh -o StrictHostKeyChecking=no" -arvc --exclude .git ~/repo/publish ubuntu@ec2-18-206-57-23.compute-1.amazonaws.com:/var/www/html/notes
 
