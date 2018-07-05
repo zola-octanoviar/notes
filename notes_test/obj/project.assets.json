@@ -5719,11 +5719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Workspace/net.core/notes_xunit/notes_test/notes_test.csproj",
+      "projectUniqueName": "/Workspace/net.core/notes/notes_test/notes_test.csproj",
       "projectName": "notes_test",
-      "projectPath": "/Workspace/net.core/notes_xunit/notes_test/notes_test.csproj",
+      "projectPath": "/Workspace/net.core/notes/notes_test/notes_test.csproj",
       "packagesPath": "/Users/zola/.nuget/packages/",
-      "outputPath": "/Workspace/net.core/notes_xunit/notes_test/obj/",
+      "outputPath": "/Workspace/net.core/notes/notes_test/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
