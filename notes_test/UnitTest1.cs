@@ -8,7 +8,10 @@ namespace notes_test
         [Fact]
         public void Test1()
         {
-
+           Assert.Equal(1, 1);       
+           Assert.Equal(true, true);
+           // failed test
+           //Assert.Equal(false, true);
         }
     }
 }
