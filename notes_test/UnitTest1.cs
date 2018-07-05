@@ -9,6 +9,7 @@ namespace notes_test
         public void Test1()
         {
             Assert.Equal(1, 1);       
+            Assert.Equal("abc", "abc");       
 
             bool  expectedTrue = true;
             Assert.True(expectedTrue);
