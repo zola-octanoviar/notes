@@ -25,6 +25,7 @@ jobs:
 
       - run:
           name: Rsync
+          command: apt-get update -y
           command: apt install -y rsync
 
       - add_ssh_keys:
