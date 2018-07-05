@@ -1,0 +1,14 @@
+/Workspace/net.core/notes_xunit/notes
+--output-path=obj/Debug/netcoreapp2.0/
+--application-name=notes
+--content-root=/Workspace/net.core/notes_xunit/notes
+--file=/Workspace/net.core/notes_xunit/notes/Views/Account/Login.cshtml
+--file=/Workspace/net.core/notes_xunit/notes/Views/Note/Comments.cshtml
+--file=/Workspace/net.core/notes_xunit/notes/Views/Note/Edit.cshtml
+--file=/Workspace/net.core/notes_xunit/notes/Views/Note/Index.cshtml
+--file=/Workspace/net.core/notes_xunit/notes/Views/Note/IndexPost.cshtml
+--file=/Workspace/net.core/notes_xunit/notes/Views/Note/Post.cshtml
+--file=/Workspace/net.core/notes_xunit/notes/Views/Shared/_Layout.cshtml
+--file=/Workspace/net.core/notes_xunit/notes/Views/Shared/_SocialSharing.cshtml
+--file=/Workspace/net.core/notes_xunit/notes/Views/_ViewImports.cshtml
+--file=/Workspace/net.core/notes_xunit/notes/Views/_ViewStart.cshtml
