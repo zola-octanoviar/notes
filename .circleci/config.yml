@@ -21,8 +21,8 @@ jobs:
 
       - run:
           name: Publish 
-          command: dotnet publish -c Release -r ubuntu.16.04-x64 notes/notes.csproj  
-          #command: dotnet publish -c Release -r ubuntu.16.04-x64 notes/notes.csproj  --output ../publish
+          #command: dotnet publish -c Release -r ubuntu.16.04-x64 notes/notes.csproj  
+          command: dotnet publish -c Release -r ubuntu.16.04-x64 notes/notes.csproj  --output ../publish
 
       - add_ssh_keys:
           fingerprints:
